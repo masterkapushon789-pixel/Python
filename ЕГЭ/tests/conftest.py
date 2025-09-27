@@ -171,7 +171,7 @@ def result_register(task_type, number, result, right_result):
             return []
 
         # Строим путь относительно корня репозитория, отталкиваясь от текущего файла tests/conftest.py
-        task_dir = os.path.join(repo_root(), f"Тема {t}", "Задания")
+        task_dir = os.path.join(repo_root(), "ЕГЭ", f"Тема {t}", "Задания")
 
         if not os.path.isdir(task_dir):
             return []
