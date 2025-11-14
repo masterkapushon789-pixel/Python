@@ -12,7 +12,7 @@ print(len(a))
 
 
 
-answer = 999
+answer = 49
 
 #
 
