@@ -1,11 +1,12 @@
 # Решение
-a = []
-for n in range(1, 50):
+a = [0] * 1000
+for n in range(1, 500):
     n2 = bin(n)[2:]
     n2 += bin(n % 4)[2:]
     r = int(n2, 2)
-    a.append(r)
-print(len(a))
+    print(r)
+    #a[r] = 1
+
 
 
 
