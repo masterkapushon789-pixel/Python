@@ -32,7 +32,7 @@ for x in range(-koef, koef):
 exitonclick()
 
 
-answer = 2
+answer = 12
 
 #
 
