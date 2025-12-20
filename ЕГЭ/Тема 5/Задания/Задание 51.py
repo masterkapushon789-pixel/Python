@@ -1,10 +1,23 @@
-# Решение
+# decision
+for n in range(1, 100):
 
+    # 1
+    n2 = bin(n)[2:]
 
+    # 2
+    a = n % 3
+    a = bin(a)[2:]
+    n2 += a
 
+    # 3
+    n10 = int(n2, 2)
+    a = n10 % 5
+    a = bin(a)[2:]
+    n2 += a
 
-
-
+    #4
+    r = int(n2, 2)
+    print(n, r, r//n)
 
 answer = ...
 
