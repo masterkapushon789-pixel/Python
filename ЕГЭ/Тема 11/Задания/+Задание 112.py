@@ -1,12 +1,17 @@
 # Решение
 
+from math import *
+
+n = 2783
+v = ceil((11 * 1024 * 1024 * 1024) / 3_845_627)
+print(v)
 
 
 
 
 
 
-answer = ...
+answer = 257
 
 #
 
