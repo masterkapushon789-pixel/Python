@@ -1,14 +1,9 @@
 # Решение
+import math
 n = 192 * 960
 v = 90 * 2 ** 13 / 0.65
 i = v / n
-
-
-
-
-
-
-
+math.floor(i)
 
 answer = 2 ** i
 
