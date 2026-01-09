@@ -1,5 +1,13 @@
 # Решение
-n = 1
+import math
+s = 1024 * 768
+p = 4096
+i = math.log2(p)
+v = s * i
+v = 0.2 * v
+a = 200 * 2 ** 13
+n = a / v
+print(n)
 
 
 
