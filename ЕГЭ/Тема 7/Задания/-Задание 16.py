@@ -6,6 +6,7 @@ i = math.log2(p)
 v = s * i
 v = 0.2 * v
 a = 200 * 2 ** 13
+print(a/v)
 
 
 
@@ -13,7 +14,7 @@ a = 200 * 2 ** 13
 
 
 
-answer = a/v
+answer = 0
 
 #
 
