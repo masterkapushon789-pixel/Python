@@ -11,7 +11,7 @@ print(v / n)
 
 
 
-answer = 2
+answer = 1
 
 #
 
