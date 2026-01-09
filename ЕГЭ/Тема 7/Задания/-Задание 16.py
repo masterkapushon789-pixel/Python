@@ -14,7 +14,7 @@ print(v/a)
 
 
 
-answer = 0.87
+answer = v/a
 
 #
 
