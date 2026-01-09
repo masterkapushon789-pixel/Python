@@ -6,15 +6,15 @@ i = math.log2(p)
 v = s * i
 v = 0.2 * v
 a = 200 * 2 ** 13
-n = a / v
-print(n)
+print(a)
+print(v)
 
 
 
 
 
 
-answer = 1
+answer = 2
 
 #
 
