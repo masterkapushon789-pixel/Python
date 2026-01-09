@@ -11,7 +11,7 @@ print(2 ** i)
 
 
 
-answer = 4
+answer = 3
 
 #
 
