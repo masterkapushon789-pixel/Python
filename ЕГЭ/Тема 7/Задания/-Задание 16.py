@@ -14,7 +14,7 @@ print(a/v)
 
 
 
-answer = 0
+answer = 0.8
 
 #
 
