@@ -12,5 +12,10 @@ for x in product('ABCD', repeat=4):
     print(''.join(x))
 """
 
+for x in product('AB', 'CD', 'AB', 'CD'):
+    print(x)
+
+"""
 for p in permutations('ABCD', 3):
     print(p)
+"""
