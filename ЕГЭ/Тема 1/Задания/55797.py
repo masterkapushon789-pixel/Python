@@ -1,6 +1,6 @@
 from itertools import permutations
 
-table = '13 14 16 25 27 31 34 41 43 47 52 56 57 61 65 72 74 75'
+table = '15 16 24 25 26 28 37 38 42 45 47 48 51 52 54 56 61 62 65'
 graph = 'АБ АД БА БД БВ ВБ ВГ ГВ ГЕ ГЖ ДА ДБ ДЕ ЕД ЕГ ЕЖ ЖГ ЖЕ'
 
 for p in permutations('АБВГДЕЖ'):
